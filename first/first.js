@@ -18,6 +18,5 @@ console.log(userName);
 
 
 // task4
-let userName2 = "Yasmin";
-let userSurname = "Askerova";
-console.log(userName2, userSurname);
+let userName2 = prompt("Enter your name and surname")
+console.log(userName2)
