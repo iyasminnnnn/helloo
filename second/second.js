@@ -95,11 +95,11 @@
 // console.log(product1.charAt(5))
 // ------------------------------------------------------------------------
 // task13
-// 1) 1 setr kimi
+// 1) 10 setr kimi
 // 2) -1 reqem kimi
 // 3) NaN cunki true setrdi ve onun reqem qarsiligi yoxdu
 // 4)2
-// 5) 9px 4+5 
+// 5) 9px       4+5=9+"px"="9px"
 // 6) $45
 // 7) 2
 // 8) NaNpx
@@ -114,11 +114,11 @@
 // let sum=0;
 // let n=userNum%10;
 // sum+=n;
-// let m=Math.floor(userNum/10)%10;
+// let m=parseInt(userNum/10)%10;
 // sum+=m;
-// let k=Math.floor(userNum/100)%10;
+// let k= parseInt(userNum/100)%10;
 // sum+=k;
-// let l=Math.floor(userNum/1000)%10;  
+// let l=parseInt(userNum/1000)%10;  
 // sum+=l;
 // console.log("The sum of the digits is: "+sum);
 // ------------------------------------------------------------------------
@@ -169,9 +169,10 @@
 // }
 // ------------------------------------------------------------------------
 // task21
-// let a=prompt("Enter first number:");
-// let b=prompt("Enter second number:");
-// let c=prompt("Enter third number:");
+// let d=prompt("Enter three different numbers:");
+// let a=Number(d.slice(0,d.indexOf(" ")));
+// let b =Number(d.slice( d.indexOf(" ") + 1,d.indexOf(" ", d.indexOf(" ") + 1)));
+// let c=Number(d.slice(d.indexOf(" ", d.indexOf(" ") + 1) + 1));
 // if (a===b || b===c ||a===c){
 //     console.log("Please enter three different numbers.");
 // }
