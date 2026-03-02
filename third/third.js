@@ -75,41 +75,36 @@ else{
 if(year.length==4){
     if(month>0 && month<=12){
         if(day>=1 && day<=31){
-            if(firstm==0){
- switch(secondm){
-                 case "1":
-                    month="January"
-                    break;
-    case "2":
+ switch(month){
+    case "01":
+        month="January"
+        break;
+    case "02":
         month="February"
         break;
-    case "3":
+    case "03":
         month="March"
         break;
-    case "4":
+    case "04":
         month="April"
         break;
-    case "5":
+    case "05":
         month="May"
         break;
-    case "6":
+    case "06":
         month="June"
         break;
-    case "7":
+    case "07":
          month="July"
         break;
-    case "8":
+    case "08":
          month="August"
         break;
-    case "9":
+    case "09":
          month="September"
         break;
-            }
-            }
-            else{
-            switch(month){
-     case "10":
-        month="October"
+    case "10":
+         month="October"
         break;
     case "11":
          month="November"
@@ -118,38 +113,35 @@ if(year.length==4){
          month="December"
         break;
             }
-        }
-    if(firstd==0){
-        switch(secondd){
-            case "1":
+        switch(day){
+            case "01":
                 day="1";
                 break;
-            case "2":
+            case "02":
                 day="2";
                 break;
-            case "3":
+            case "03":
                 day="3";
                 break;
-            case "4":
+            case "04":
                 day="4";
                 break;
-            case "5":
+            case "05":
                 day="5";
                 break;
-            case "6":
+            case "06":
                 day="6";
                 break;
-            case "7":
+            case "07":
                 day="7";
                 break;
-            case "8":
+            case "08":
                 day="8";
                 break;
-            case "9":
+            case "09":
                 day="9";
                 break;
         }
-    }
             console.log(day+" "+month+" "+year+"-cu il")
         }
     }
