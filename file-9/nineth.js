@@ -2,7 +2,7 @@ let products=[
     header={link:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvIlFrBEo5DE1QWHNrkshm0lQNcNUroWaetQ&s",logoname:"Roast & Co.",description:"Specialty Coffee Roasters",ule1:"Menu",ule2:"Our Story",ule3:"Process",ule4:"Locations",ule5:"Shop",link2:"https://cdn-icons-png.flaticon.com/512/691/691132.png",link3:"https://static.wixstatic.com/media/11062b_a5be48d3f8ca441195168dc03a527a7b~mv2.jpg/v1/fill/w_824,h_824,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Three%20Beverages.jpg"},
     first={productname:"Salted Caramel Latte",link:"https://cdn.prod.website-files.com/6595bdc93391268f77b2a568/693b58fd48fa909bc566fe20_STR_Evergreen_SaltedCaramelBiancoLatte_HeroFood_LowRes-p-500.jpg",price:"8 AZN"},
     second={productname:"Capuchino",link:"https://barashka28.ru/assets/images/product/alernative/kofe.jpg",price:"7 AZN"},
-    third={productname:"Raf",link:"https://static-sl.insales.ru/files/1/2885/17050437/original/raf-coffee-recipe-2.jpg?1625037532",price:"9 AZN"},
+    third={productname:"Raf",link:"https://cornercoffeestore.com/wp-content/uploads/2021/06/raf-coffee-frothy-espresso-with-cookies.jpg",price:"9 AZN"},
     fourth={productname:"Espresso",link:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW9PRnzPVTMn_L_JCYVEEVb6NjkrBYgnuDcA&s",price:"5 AZN"},
 ]
 let navigation=document.querySelector(".head")
@@ -65,27 +65,16 @@ hehediv=document.querySelector(".header")
 
 
 for(let i=1;i<5;i++){
-    // let coffee=document.createElement("img")
-    // let coffeep=document.createElement("p")
-    //  let coffeepr=document.createElement("p")
-    // coffee.src=products[i].link
-    // coffeep.innerHTML=products[i].productname
-    // coffeepr.innerHTML=products[i].price
-    // hehediv.appendChild(coffee)
-    // hehediv.appendChild(coffeep)
-    // hehediv.appendChild(coffeepr)
-    // hehe.appendChild(coffee)
-    // hehe.appendChild(coffeep)
-    // hehe.appendChild(coffeepr)
+
     hehe=document.querySelector(".hehe")
     hehe.innerHTML+=`
-        <div class="flex-col mt-5">
+        <div class="flex-col mt-5 whole">
                  <div class="imgp">
                     <img src="${products[i].link}" alt="" class="image mb-4">
                  </div>
           <div class="imgtext text-center">
             <p class="mb-4 play">${products[i].productname}</p>
-            <p class=play>${products[i].price}</p>
+            <p class="play">${products[i].price}</p>
           </div>
             </div>`
  
