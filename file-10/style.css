@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(188, 255, 204);
+}
+.table{
+    border-collapse: collapse !important;
+    box-shadow: 20px 10px 20px black;
+}
+.border{
+     border:1px solid black;
+    border-collapse: collapse !important;
+   width:200px;
+   height: 30px;
+   text-align: center;
+}
+.div{
+   margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.searchbox{
+    margin-bottom: 5px;
+    margin-left: 170px;
+}
+.searchtable{
+    margin-top: 30px;
+}
