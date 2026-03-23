@@ -32,7 +32,9 @@
 .justify-between {
     justify-content: space-between;
 }
-
+.justify-around {
+    justify-content: space-around;
+}
 .gap-10 {
     gap: 10px;
 }
@@ -49,7 +51,7 @@
     width: 100%;
 }
 .gap-16{
-    gap:5px;
+    gap:16px;
 }
 .justify-center {
     justify-content: center;
@@ -80,6 +82,9 @@
 }
 .mt-5{
     margin-top: 70px;
+}
+.wrap{
+    flex-wrap: wrap;
 }
 /* xs */
 @media screen and (max-width:576px) {
