@@ -42,7 +42,7 @@ let teaprod=[
 let navigation=document.querySelector(".head")
 navigation.innerHTML=` 
 <div class="d-flex gap-16">
-<img src="${products[0].link}" >
+<img src="${products[0].link}" style="border-radius:50%;">
        <div class="p1p2 play">
         <p class="p1">${products[0].logoname}</p>
        <p class="p2">${products[0].description}</p>
@@ -81,14 +81,14 @@ for(let i=1;i<products.length;i++){
             </div>`
  
 }
-let activeCategory = products.filter(item => item.productname); // default: coffee
+let activeCategory = products.filter(item => item.productname); 
 
 function renderProducts(arr) {
     const container = document.querySelector(".hehe");
     container.innerHTML = ""; 
 
     if (arr.length === 0) {
-        container.innerHTML = `<p class="no-results">No products found.</p>`;
+        container.innerHTML = `<p class="white">No products found.</p>`;
         return;
     }
 
@@ -106,8 +106,6 @@ function renderProducts(arr) {
     }
 }
 
-// initial render
-renderProducts(activeCategory);
 
 const input = document.querySelector(".searchInput");
 input.addEventListener("input", function () {
@@ -118,7 +116,6 @@ input.addEventListener("input", function () {
     renderProducts(filtered);
 });
 
-// category buttons
 const coffeebtn = document.querySelector(".coffee");
 const dessertbtn = document.querySelector(".desserts");
 const teabtn = document.querySelector(".tea");
