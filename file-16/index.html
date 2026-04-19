@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <script src="https://kit.fontawesome.com/9f2bc5185e.js" crossorigin="anonymous"></script>
+</head>
+<body class="p-[10px] bg-[linear-gradient(180deg,rgba(0,0,0,1)_0%,rgba(17,47,94,1)_58%,rgba(2,75,153,1)_100%)]">
+    <div class="flex h-screen gap-[100px]">
+        <div class="w-2/3 hidden lg:block relative"> 
+          <img src="https://img.freepik.com/premium-photo/abstract-dark-blue-desert-background_520665-13658.jpg" class="w-full h-screen " alt="">
+        <div class="flex flex-col items-center ">
+          <p class="absolute bottom-[100px] text-white text-[35px]">AI Generative</p>
+        <p class="absolute bottom-[60px] text-white text-[35px]">Anything You Want</p>
+        <p class="absolute bottom-[30px] text-gray-500 text-[15px]">Generate any type of art </p>
+        </div>
+      </div>
+    <div class="flex flex-col w-full lg:w-1/3 justify-center items-center lg:items-start gap-[20px] ">
+        <div class="flex flex-col gap-[1px] text-center lg:text-left">
+             <p class="text-gray-300 text-[10px]">Register</p>
+        <p class="text-white text-[30px] font-[600]">Welcome To Our Site!</p>
+        <p class="text-gray-300 text-[12px]">Enter Your Email and Password</p>
+        </div>
+         <div class="flex flex-col gap-[4px]">
+          <p class="text-gray-300 text-[12px]">Name</p>
+        <input type="text" placeholder="Username"  class="h-[30px] w-[300px] rounded-[10px] border border-gray-600 p-[15px] placeholder-gray-400 text-[12px] inputname int">
+        <p class="text-[12px] font-600 text-red-800 ent" style="display: none;">Enter all fields</p>
+       </div>
+       <div class="flex flex-col gap-[4px]">
+          <p class="text-gray-300 text-[12px]">Email Adress</p>
+        <input type="email" placeholder="hello@gmail.com"  class="h-[30px] w-[300px] rounded-[10px] border border-gray-600 p-[15px] placeholder-gray-400 text-[12px] inputmail int">
+          <p class="text-[12px] font-600 text-red-800 ent" style="display: none;">Enter all fields</p>
+          <p class="text-[12px] font-600 text-red-800 regex" style="display: none;">Enter the email like example@gmail.com</p>
+       </div>
+      <div class="flex flex-col gap-[4px]">
+          <p class="text-gray-300 text-[12px]">Password</p>
+          <div class="flex relative">
+               <input  type="password" placeholder="Input your password" class="h-[30px] rounded-[10px] w-[300px] border border-gray-600 p-[15px] placeholder-gray-400 text-[12px] inputpass in int">
+        <i class="fa-solid fa-eye text-gray-300 absolute right-[10px] text-[12px] top-[10px]"></i>
+        <i class="fa-solid fa-eye-slash text-gray-300 absolute right-[10px] text-[12px] top-[10px]" style="display:none"></i>
+          </div>
+       <p class="text-[12px] font-600 text-red-800 ent" style="display: none;">Enter all fields</p>
+      </div>
+      
+        <a href="./login.html" class="text-white text-[13px] underline underline-offset-2">Already have an account?</a>
+      <button class="text-white bg-[linear-gradient(180deg,rgba(0,0,0,1)_0%,rgba(28,27,27,1)_51%,rgba(33,29,29,1)_100%)] text-sm w-[300px] h-[40px] rounded-[10px] hover:opacity-90 transition button">Sign up</button>
+    </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

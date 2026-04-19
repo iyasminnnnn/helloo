@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <script src="https://kit.fontawesome.com/9f2bc5185e.js" crossorigin="anonymous"></script>
+</head>
+<body class="p-[10px] bg-[linear-gradient(180deg,rgba(0,0,0,1)_0%,rgba(17,47,94,1)_58%,rgba(2,75,153,1)_100%)]">
+    <div class="flex h-screen gap-[100px]">
+        <div class="w-2/3 hidden lg:block relative"><img src="https://img.freepik.com/premium-photo/abstract-dark-blue-desert-background_520665-13658.jpg" class="w-full h-screen " alt="">
+          <div class="flex flex-col items-center ">
+          <p class="absolute bottom-[100px] text-white text-[35px]">AI Generative</p>
+        <p class="absolute bottom-[60px] text-white text-[35px]">Anything You Want</p>
+        <p class="absolute bottom-[30px] text-gray-500 text-[15px]">Generate any type of art </p>
+        </div></div>
+    <div class="flex flex-col w-full lg:w-1/3 justify-center items-center lg:items-start gap-[15px] ">
+        <div class="flex flex-col gap-[1px] text-center lg:text-left">
+        <p class="text-white text-[18px] font-[600]">Enter Your Verification Code</p>
+        <p class="text-gray-300 text-[14px]">You have: <span id="timer" class="text-blue-400 font-bold">02:00</span></p>
+        </div>
+       <div class="flex flex-col gap-[4px]">
+        <input type="text" class="h-[30px] w-[300px] rounded-[10px] border border-gray-600 p-[15px] placeholder-gray-400 text-[12px] inputmail int">
+       </div>
+       <p class="text-white text-[12px] send button">Send Again</p>
+      <button class="text-white bg-[linear-gradient(180deg,rgba(0,0,0,1)_0%,rgba(28,27,27,1)_51%,rgba(33,29,29,1)_100%)] text-sm w-[300px] h-[40px] rounded-[10px] hover:opacity-90 transition ">Verify</button>
+    </div>
+    </div>
+    <script src="./code.js"></script>
+</body>
+</html>
